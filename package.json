@@ -1,0 +1,37 @@
+{
+  "name": "stylelint-wxwork-css",
+  "version": "0.0.1",
+  "description": "Special stylelint rules for wxwork(wechat for work) CSS",
+  "keywords": [
+    "stylelint-plugin",
+    "stylelint",
+    "css",
+    "lint",
+    "wxwork"
+  ],
+  "repository": "qmui/stylelint-wxwork-css",
+  "bugs": {
+    "url": "https://github.com/qmui/stylelint-wxwork-css/issues"
+  },
+  "homepage": "https://github.com/qmui/stylelint-wxwork-css",
+
+  "engines": {
+    "node": ">=4"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Jeff2Ma",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "eslint": "^3.16.1",
+    "stylelint-test-rule-ava": "^0.2.0"
+  },
+  "dependencies": {
+    "lodash.find": "^4.6.0",
+    "postcss-selector-parser": "^2.2.3",
+    "stylelint": "^7.11.1"
+  }
+}
