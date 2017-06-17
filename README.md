@@ -2,6 +2,8 @@
 
 > Special stylelint rules for wxwork(wechat for work) CSS. 企业微信项目CSS 代码stylelint 特殊规范
 
+> Part of wxwork (Wechat For Work) CSS / Sass Styleguide.
+
 ## Usege
 
 ```
