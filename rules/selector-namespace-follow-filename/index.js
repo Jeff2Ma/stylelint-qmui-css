@@ -6,7 +6,7 @@ const path = require('path');
 const msgPrefix = require('../../utils/messagePrefix');
 const ruleName = namespace('selector-namespace-follow-filename');
 const messages = stylelint.utils.ruleMessages(ruleName, {
-  expected: (selector, namespace) => `[wxwork] Expected selector "${selector}" to match source filename as namespace "${namespace}".`,
+  expected: (selector, namespace) => `[qmui] Expected selector "${selector}" to match source filename as namespace "${namespace}".`,
 });
 
 function rule(actual) {

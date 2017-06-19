@@ -1,4 +1,4 @@
-const msgPrefix = "[wxwork] ";
+const msgPrefix = "[qmui] ";
 
 module.exports = {
   "main": msgPrefix
