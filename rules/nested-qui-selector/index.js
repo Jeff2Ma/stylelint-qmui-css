@@ -2,7 +2,6 @@
 
 const stylelint = require('stylelint');
 const namespace = require('../../utils/namespace');
-const path = require('path');
 const msgPrefix = require('../../utils/messagePrefix');
 const ruleName = namespace('nested-qui-selector');
 const messages = stylelint.utils.ruleMessages(ruleName, {
@@ -26,6 +25,12 @@ function rule(actual) {
         return;
       }
 
+      // if (context.fix) {
+      //   // Apply fixes using PostCSS API
+      //   rule.selector.replace('qui_','ww_');
+      //   return // Return and don't report a problem
+      // }
+
       stylelint.utils.report({
         message: messages.rejected,
         node: rule,
@@ -33,7 +38,7 @@ function rule(actual) {
         ruleName,
       });
 
-      // console.log(rule.source.input.file)
+      // console.log()
     });
   };
 }

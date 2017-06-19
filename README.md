@@ -1,13 +1,12 @@
-# stylelint-wxwork-css
+# stylelint-qmui-css
 
-> Special stylelint rules for wxwork(wechat for work) CSS. 企业微信项目CSS 代码stylelint 特殊规范
+> Special stylelint rules for [QMUI team](https://github.com/QMUI/) project css. 
 
-> Part of wxwork (Wechat For Work) CSS / Sass Styleguide.
 
 ## Usege
 
 ```
-npm i stylelint-wxwork-css -D
+npm i stylelint-qmui-css -D
 ```
 
 ## Rules

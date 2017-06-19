@@ -1,7 +1,7 @@
 {
-  "name": "stylelint-wxwork-css",
+  "name": "stylelint-qmui-css",
   "version": "0.0.1",
-  "description": "Special stylelint rules for wxwork(wechat for work) CSS",
+  "description": "Special stylelint rules for QMUI team project css",
   "keywords": [
     "stylelint-plugin",
     "stylelint",
@@ -9,11 +9,11 @@
     "lint",
     "wxwork"
   ],
-  "repository": "qmui/stylelint-wxwork-css",
+  "repository": "qmui/stylelint-qmui-css",
   "bugs": {
-    "url": "https://github.com/qmui/stylelint-wxwork-css/issues"
+    "url": "https://github.com/qmui/stylelint-qmui-css/issues"
   },
-  "homepage": "https://github.com/qmui/stylelint-wxwork-css",
+  "homepage": "https://github.com/qmui/stylelint-qmui-css",
 
   "engines": {
     "node": ">=4"
