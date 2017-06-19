@@ -22,4 +22,6 @@ npm i stylelint-qmui-css -D
 - `selector-namespace-follow-filename`: 业务CSS 的命名空间需要跟随文件名
 
 
+## Thanks
 
+Inspired from [stylelint-suitcss](https://github.com/suitcss/stylelint-suitcss).
