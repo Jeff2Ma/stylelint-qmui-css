@@ -1,6 +1,6 @@
 {
   "name": "stylelint-qmui-css",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Special stylelint rules for QMUI team project css",
   "keywords": [
     "stylelint-plugin",
@@ -14,7 +14,6 @@
     "url": "https://github.com/qmui/stylelint-qmui-css/issues"
   },
   "homepage": "https://github.com/qmui/stylelint-qmui-css",
-
   "engines": {
     "node": ">=4"
   },
