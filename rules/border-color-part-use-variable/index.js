@@ -24,7 +24,7 @@ const rule = function (actual) {
       }
 
       // 排除 border:0 或 border:none 的情况
-      if (value.indexOf('$') || value === '0' || value.indexOf('none') > -1) {
+      if (value.indexOf('$') > -1 || value === '0' || value.indexOf('none') > -1) {
         return;
       }
 
