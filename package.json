@@ -1,6 +1,6 @@
 {
   "name": "stylelint-qmui-css",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Special stylelint rules for QMUI team project css",
   "keywords": [
     "stylelint-plugin",
