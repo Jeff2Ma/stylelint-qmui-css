@@ -1,6 +1,6 @@
 # stylelint-qmui-css
 
-> Special stylelint rules for [QMUI team](https://github.com/QMUI/) project css. 
+> [This plugin is still developing... ]Special stylelint rules for [QMUI team](https://github.com/QMUI/) project css. 
 
 
 ## Usege
@@ -11,9 +11,9 @@ npm i stylelint-qmui-css -D
 
 ## Rules
 
-- `at-extend-no-missing-placeholder`: @extend 规则被引入的部分不能丢失%
+- `comments-in-header`: 文件头必须有注释，包含`@author`或`@data`等必要信息
 
-- `border-color-part-use-variable`: border 属性中color 的部分必须用变量
+- `unused-mixins`: mixins 黑名单
 
 - `nested-qui-selector`: 不建议在嵌套中使用`qui_xxx` 的类
 
