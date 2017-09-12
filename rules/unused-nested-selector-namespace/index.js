@@ -3,7 +3,7 @@
 const stylelint = require('stylelint');
 const namespace = require('../../utils/namespace');
 const msgPrefix = require('../../utils/messagePrefix');
-const ruleName = namespace('nested-qui-selector');
+const ruleName = namespace('unused-nested-selector-namespace');
 const messages = stylelint.utils.ruleMessages(ruleName, {
   rejected: msgPrefix.main + "Not suggest to use 'qui_xxx' selector in project, please use 'ww_xxx'",
 });
